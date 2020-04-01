@@ -110,6 +110,15 @@
     <ClInclude Include="..\..\Delegate\xallocator.h">
       <Filter>Delegate</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Delegate\DelegateRemoteInvoker.h">
+      <Filter>Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Delegate\DelegateRemoteRecv.h">
+      <Filter>Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Delegate\DelegateRemoteSend.h">
+      <Filter>Delegate</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\main.cpp" />
@@ -160,6 +169,12 @@
       <Filter>Delegate</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Delegate\xallocator.cpp">
+      <Filter>Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Delegate\DelegateAsync.cpp">
+      <Filter>Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Delegate\DelegateRemoteInvoker.cpp">
       <Filter>Delegate</Filter>
     </ClCompile>
   </ItemGroup>

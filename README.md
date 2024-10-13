@@ -15,9 +15,15 @@ Originally published on CodeProject at: <a href="https://www.codeproject.com/Art
 
 <p>I won&rsquo;t be re-explaining the <code>StateMachine</code> and <code>Delegate&lt;&gt;</code> implementations as the prior articles do that already. The primary focus is on how to combine the state machine and delegates into a single framework.</p>
 
-<p>This article is similar in concept to my article &ldquo;<a href="https://www.codeproject.com/Articles/1156423/Cplusplus-State-Machine-with-Threads"><strong>C++ State Machine with Threads</strong></a>&rdquo;. That article utilized <code>AsyncCallback&lt;&gt;</code> for the inter-thread messaging whereas this article utilizes <code>Delegate&lt;&gt;</code>. <code>AsyncCallback&lt;&gt;</code> is a simple, compact implementation with limited callback function types and signatures. The advantage of <code>AsyncCallback&lt;&gt;</code> is that the implementation is more compact and simple at the expense of only being able to target free or static functions with a single function agrument. The <code>Delegate&lt;&gt;</code> implementation illustrated here allows asynchronous callbacks on any function type, including member functions, with any function signature thus simplifying integration with <code>StateMachine</code>.&nbsp;</p>
+<p><a href="https://www.cmake.org/">CMake</a>&nbsp;is used to create the build files. CMake is free and open-source software. Windows, Linux and other toolchains are supported. See the <strong>CMakeLists.txt </strong>file for more information.</p>
 
-<p>Visual Studio 2008 and 2015 projects are included for easy experimentation. Two threading models are supported: Win32 and <code>std::thread</code>. Both implementations include the necessary threads, locks, message queues, and timers for easy porting to other embedded or PC-based systems.</p>
+<p>Related GitHub repositories:</p>
+
+<ul>
+    <li><a href="https://github.com/endurodave/C_StateMachineWithThreads">C Language State Machine with Threads</a> - by David Lafreniere</li>
+	<li><a href="https://github.com/endurodave/StateMachineWithModernDelegates">State Machine with Modern Delegates</a> - by David Lafreniere</li>
+    <li><a href="https://github.com/endurodave/StateMachine">State Machine Design in C++</a> - by David Lafreniere</li>
+</ul>
 
 <h2>Asynchronous Delegate Callbacks</h2>
 

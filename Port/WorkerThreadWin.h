@@ -1,6 +1,9 @@
 #ifndef _WORKER_THREAD_H
 #define _WORKER_THREAD_H
 
+// @see https://www.codeproject.com/Articles/1095196/Win-Thread-Wrapper-with-Synchronized-Start
+// David Lafreniere, Oct 2019
+
 #include "DelegateOpt.h"
 #if USE_WIN32_THREADS
 

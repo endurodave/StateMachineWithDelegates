@@ -1,6 +1,9 @@
 #ifndef _THREAD_STD_H
 #define _THREAD_STD_H
 
+// @see https://github.com/endurodave/ThreadWin
+// David Lafreniere, Feb 2017.
+
 #include "DelegateOpt.h"
 #if USE_STD_THREADS
 

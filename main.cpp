@@ -8,10 +8,8 @@
 #include "WorkerThreadWin.h"
 #endif
 
+// @see https://github.com/endurodave/StateMachineWithDelegates
 // David Lafreniere
-// https://www.codeproject.com/Articles/1165243/Cplusplus-State-Machine-with-Asynchronous-Multicas
-// https://www.codeproject.com/Articles/1160934/Asynchronous-Multicast-Delegates-in-Cplusplus
-// https://www.codeproject.com/Articles/5262271/Remote-Procedure-Calls-using-Cplusplus-Delegates
 
 using namespace std;
 

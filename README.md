@@ -1,11 +1,16 @@
 # C++ State Machine with Asynchronous Multicast Delegates
 A framework combining C++ state machines with asynchronous multicast delegates.
 
-Originally published on CodeProject at: <a href="https://www.codeproject.com/Articles/1165243/Cplusplus-State-Machine-with-Asynchronous-Multicas"><strong>C++ State Machine with Asynchronous Multicast Delegates</strong></a>
+Originally published on CodeProject at: <a href="https://www.codeproject.com/Articles/1165243/Cplusplus-State-Machine-with-Asynchronous-Multicas">C++ State Machine with Asynchronous Multicast Delegates</a>
+
+## ⚠️ New Repository
+
+See the updated implementation of this code at: <a href="https://github.com/endurodave/StateMachineWithModernDelegates">C++ State Machine with Modern Asynchronous Multicast Delegates</a> 
 
 # Table of Contents
 
 - [C++ State Machine with Asynchronous Multicast Delegates](#c-state-machine-with-asynchronous-multicast-delegates)
+  - [⚠️ New Repository](#️-new-repository)
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Asynchronous Delegate Callbacks](#asynchronous-delegate-callbacks)
